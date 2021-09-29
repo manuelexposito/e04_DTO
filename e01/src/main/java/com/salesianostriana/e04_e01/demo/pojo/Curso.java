@@ -22,6 +22,10 @@ public class Curso {
     private String aula;
 
 
-
-
+    public Curso(String nombre, String tipo, String tutor, String aula) {
+        this.nombre = nombre;
+        this.tipo = tipo;
+        this.tutor = tutor;
+        this.aula = aula;
+    }
 }
