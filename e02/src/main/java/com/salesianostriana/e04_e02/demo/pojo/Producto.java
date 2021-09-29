@@ -38,4 +38,13 @@ public class Producto {
         this.email = email;
         this.categoria = categoria;
     }
+
+    //Constructor sin email para crear un producto en la clase converter
+    public Producto(String nombre, String desc, double pvp, Collection<String> imagenes, Categoria categoria) {
+        this.nombre = nombre;
+        this.desc = desc;
+        this.pvp = pvp;
+        this.imagenes = imagenes;
+        this.categoria = categoria;
+    }
 }
