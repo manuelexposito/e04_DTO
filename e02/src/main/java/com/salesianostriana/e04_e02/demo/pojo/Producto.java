@@ -36,6 +36,16 @@ public class Producto {
         this.pvp = pvp;
         this.imagenes = imagenes;
         this.categoria = categoria;
+
+
+    }
+
+    public Producto(String nombre, String desc, double pvp, Collection<String> imagenes) {
+        this.nombre = nombre;
+        this.desc = desc;
+        this.pvp = pvp;
+        this.imagenes = imagenes;
+        
     }
 
 
