@@ -30,6 +30,12 @@ public class Producto {
     @ManyToOne
     Categoria categoria;
 
-
-
+    public Producto(String nombre, String desc, double pvp, Collection<String> imagenes, String email, Categoria categoria) {
+        this.nombre = nombre;
+        this.desc = desc;
+        this.pvp = pvp;
+        this.imagenes = imagenes;
+        this.email = email;
+        this.categoria = categoria;
+    }
 }
