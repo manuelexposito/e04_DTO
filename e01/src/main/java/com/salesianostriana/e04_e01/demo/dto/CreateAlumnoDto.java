@@ -11,7 +11,8 @@ import lombok.NoArgsConstructor;
 public class CreateAlumnoDto {
 
     private String nombre;
-    private String apellidos;
+    private String apellido1;
+    private String apellido2;
     private String email;
     private Long cursoId;
     private Long direccionId;

@@ -32,7 +32,7 @@ public class Alumno {
     private Curso curso;
 
 
-    public Alumno(String nombre, String apellido1, String apellido2, String telefono, String email, Direccion direccion, Curso curso) {
+    public Alumno(String nombre, String apellido1, String apellido2, String telefono) {
         this.nombre = nombre;
         this.apellido1 = apellido1;
         this.apellido2 = apellido2;
